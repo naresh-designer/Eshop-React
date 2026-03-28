@@ -8,15 +8,25 @@ import { TbTruckReturn } from 'react-icons/tb'
 const PolicyList = () => {
   return (
     <Main>
+
+
         <div className="main__wrapper">
+
+
+
+
+
+
             <div className="policyList">
+
                 <ul>
                     <li>
-                    <FaShippingFast className='shippingIcon' />
-                    <div className='policyList__content'>
-                    <h5>Free Shipping</h5>
-                    <p>Above $5 Only</p>
-                    </div>
+                            <FaShippingFast className='shippingIcon' />
+                            <div className='policyList__content'>
+                            <h5>Free Shipping</h5>
+                            <p>Above $5 Only</p>
+                            </div>
+                    
                     </li>
                     <li>
                     <AiFillSafetyCertificate className='shippingIcon' />

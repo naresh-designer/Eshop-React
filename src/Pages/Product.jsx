@@ -5,6 +5,8 @@ const Card = lazy(() => import('../Components/Card/Card'))
 // import Card from '../Components/Card/Card'
 import { AppContext } from '../Context/Context'
 import Heading from '../Components/Heading/Heading'
+import Counter from '../Components/Counter/Counter'
+import Faq from '../Components/Faq/Faq'
 
 const Product = () => {
   const [inputSearch,setInputSearch]=useState('')
@@ -52,6 +54,8 @@ const Product = () => {
         
         </div>}
       </div>
+      <Counter/>
+      <Faq/>
     </Main>
   )
 }

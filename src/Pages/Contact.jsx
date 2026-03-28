@@ -1,6 +1,8 @@
 import React from 'react'
 import Heading from '../Components/Heading/Heading'
 import styled from 'styled-components'
+import Counter from '../Components/Counter/Counter'
+import Faq from '../Components/Faq/Faq'
 
 const Contact = () => {
 
@@ -47,6 +49,8 @@ NSW 1560</p>
           <img src="./images/contact-studio.jpg" alt="" />
         </figure>
       </div>
+      <Counter/>
+      <Faq/>
     </Main>
   )
 }

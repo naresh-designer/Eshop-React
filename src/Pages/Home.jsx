@@ -4,6 +4,8 @@ import Policy from '../Components/Policy/Policy'
 import HomeProduct from '../Components/HomeProduct/HomeProduct'
 import Faq from '../Components/Faq/Faq'
 import WomanProduct from '../Components/WomanProduct/WomanProduct'
+import Deals from '../Components/Deals/Deals'
+import Counter from '../Components/Counter/Counter'
 
 const Home = () => {
     const heroData={
@@ -16,7 +18,9 @@ const Home = () => {
     <Hero heroData={heroData}/>
     <Policy/>
     <HomeProduct/>
+    <Deals/>
     <WomanProduct/>
+    <Counter/>
     <Faq/>
     </>
   )

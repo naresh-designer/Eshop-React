@@ -20,7 +20,6 @@ const Faq = () => {
 const Main = styled.section` 
     background-color:#F3F6F6;
     padding:100px 0;
-    margin-block-start:100px;
 `
 
 export default Faq

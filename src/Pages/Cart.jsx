@@ -19,6 +19,7 @@ const Cart = () => {
         Cart List is Empty
         <p><Link to='/product' style={{fontSize:'2rem',cursor:'pointer',color:'hotpink',textDecoration:'underline',textTransform:'lowercase'}} >Continue Shopping</Link></p>
         </div>
+        
         </div>
       )
   }
@@ -53,7 +54,6 @@ const Cart = () => {
 
             
         </div>
-        
         
     </Main>
   )

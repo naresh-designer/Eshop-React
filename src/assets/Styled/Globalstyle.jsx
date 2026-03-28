@@ -67,7 +67,7 @@ img{
 
 h1{
     font-family:${({ theme }) => theme.common.merriweatherFont};
-    font-size:48px;
+    font-size:40px;
     font-weight:${({ theme }) => theme.common.fontWeight};
 }
 

@@ -34,21 +34,10 @@ padding-block:50px;
     font-size:80px;
     line-height:90px;
     color:rgb(215,212,208);
-    animation:tagline .5s ease;
+    animation:hero .5s ease;
     animation-timeline: scroll();
     animation-range:exit 0 cover 40%;
     transform-origin: right;
-}
-
-@keyframes tagline {
-    0%{
-        transform:translateX(0);
-        opacity:1;
-    }
-    100%{
-        transform:translateX(100%);
-        opacity:0;
-    }
 }
 
     h1{
@@ -69,6 +58,7 @@ padding-block:50px;
     animation:hero .5s ease;
     animation-timeline: scroll();
     animation-range:exit 0 cover 40%;
+    transform-origin: left;
 }
 
 @keyframes hero {
